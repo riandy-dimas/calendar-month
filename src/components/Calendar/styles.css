@@ -1,0 +1,46 @@
+.calendar {
+  width: 500px;
+}
+
+.calendar__month {
+  font-weight: 900;
+  margin: 30px 0;
+  box-sizing: border-box;
+}
+
+.calendar__dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  width: 100%;
+
+  user-select: none;
+}
+
+.calendar__date {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #222;
+  box-sizing: border-box;
+  height: 45px;
+}
+
+.calendar__date--current {
+  font-weight: 900;
+  color: #000;
+  border: 1px solid black;
+  background-color: #aaa;
+}
+
+.calendar__date--passive {
+  background-color: #eee;
+  cursor: default;
+  font-weight: 100;
+  color: #999;
+}
