@@ -1,8 +1,9 @@
 .App {
-  font-family: sans-serif;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: "Glory", sans-serif;
+  background-color: #eee;
 }

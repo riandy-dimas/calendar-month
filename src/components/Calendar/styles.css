@@ -4,8 +4,9 @@
 
 .calendar__month {
   font-weight: 900;
-  margin: 30px 0;
+  margin: 25px 0;
   box-sizing: border-box;
+  font-size: 1.1em;
 }
 
 .calendar__dates {
